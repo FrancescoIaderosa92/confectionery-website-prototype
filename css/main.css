@@ -16,3 +16,16 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #79756f;
+  text-align: center;
+  color: #fff;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  padding: .6em;
+}
