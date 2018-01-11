@@ -47,3 +47,122 @@ a {
 a:hover {
   background-color: white;
 }
+
+.nav .current {
+  background-color: white;
+}
+
+.header-image {
+  width: 10rem;
+  display: inline-block;
+}
+
+.header-image-wrap {
+  text-align: center;
+}
+
+.about {
+  background-color: #4c3229;
+  color: white;
+  padding: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.about {
+  overflow: hidden;
+}
+
+.about h2 {
+  font-size: 2em;
+}
+
+.about p {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.img-products {
+  width: 100%;
+  display: block;
+}
+
+.products-list li {
+  display: inline-block;
+  max-width: 20em;
+  padding: .5em;
+  vertical-align: top;
+}
+
+.famous-products {
+  background-color: #a57c6b;
+  padding: 1em;
+  margin-top: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.famous-products h2 {
+  font-size: 2em;
+}
+
+.famous-products h3 {
+  font-size: 1.75em;
+}
+
+.famous-products p {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.contact {
+  background-color: #a57c6b;
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.about-text {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-right: 1em;
+}
+
+.about-img {
+  float: right;
+  width: 100%;
+  padding-top: 3em;
+}
+
+.store-hours {
+  background-color: #4c3229;
+  color: white;
+}
+
+.store-hours h2 {
+  padding-left: 1em;
+}
+
+.store-hours dl dt {
+  display: inline-block;
+  padding: 1em;
+}
+
+.store-hours dl dd {
+  display: inline-block;
+  margin-left: 0;
+  padding: .5em 1em 0;
+}
+
+@media only screen and (min-width:60em) {
+  .about-text {
+    float: left;
+    width: 48%;
+  }
+
+  .about-img {
+    float: right;
+    width: 48%;
+    padding-top: 3em;
+  }
+}

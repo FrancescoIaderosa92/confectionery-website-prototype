@@ -9,23 +9,88 @@
   <body>
 
     <header>
+      <div class="header-image-wrap">
+        <img class="header-image" src="images/chocolate.svg">
+      </div>
       <h1>Coco's Chocolatiers</h1>
 
       <nav>
-            <ol>
-              <li><a href="#Home">Home</a></li>
-              <li><a href="#About">About</a></li>
-              <li><a href="#Products">Products</a></li>
-              <li><a href="#Contact">Contact</a></li>
-            </ol>
-          </nav>
-
+        <ol class="nav">
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ol>
+      </nav>
     </header>
 
     <main>
-      <p>The World's Best Chocolates</p>
-      <img src= "images/people-3by2.svg" alt="#">
+
+      <section>
+        <p>The World's Best Chocolates</p>
+        <figure>
+        <img src="images/placeholder-1by1.svg" alt="#">
+        <figcaption>local chocolatier creating our famous chocolates</figcaption>
+        </figure>
+      </section>
+
+      <section class="about">
+        <div class="about-text">
+          <h2>About Coco's Chocolatiers</h2>
+          <p>Coco's Chocolatiers has a rich history. The company was started back in 1925 during the time when Capone owned this city. Coco's Chocolatiers sttruggled to stay afloat because Capone demanded his protection money.</p>
+          <p>After Coco's Chocolatiers was able to sell enough of its chocolates and save up a good amount of money, Coco's Chocolatiers decided to uproot from Chicago and relocate to Canada in 1953.</p>
+          <p>Our company now proudly makes its famous chocolates out of a small shop downtown inside the Byward Market. Coco's Chocolatiers has now proudly stood in this location for the past 65 years.</p>
+        </div>
+        <div class="about-img">
+        <img src="images/placeholder-3by2.svg" alt="">
+        </div>
+      </section>
+
+      <section class="famous-products">
+        <h2>Our Famous Products</h2>
+        <ul class="products-list">
+
+          <li>
+            <img  class="img-products" src="images/product1.jpg" alt="">
+            <h3>Dark Chocolate</h3>
+            <p>The pride of the company is its dark almost 90% coco. Give it a try today.</p>
+          </li>
+          <li>
+            <img  class="img-products" src="images/product1.jpg" alt="">
+            <h3>Milk Chocolate</h3>
+            <p>The second chocolate made by Coco's went back to the roots. All the way from Chicago.</p>
+          </li>
+          <li>
+            <img  class="img-products" src="images/product1.jpg" alt="">
+            <h3>White Chocolate</h3>
+            <p>Coco's has been experimenting a lot lately. We have even started working with white chocolate. Stop by and try our new chocolates today!</p>
+          </li>
+
+        </ul>
+      </section>
+
+      <section class="store-hours">
+        <h2>Store Hours</h2>
+        <dl class="">
+          <dt>Monday</dt><dd>9AM-5PM</dd>
+          <dt>Tuesday</dt><dd>9AM-5PM</dd>
+          <dt>Wednesday</dt><dd>9AM-5PM</dd>
+          <dt>Thursday</dt><dd>9AM-5PM</dd>
+          <dt>Friday</dt><dd>9AM-5PM</dd>
+          <dt>Saturday</dt><dd>9AM-5PM</dd>
+          <dt>Sunday</dt><dd>Closed</dd>
+        </dl>
+      </section>
+
     </main>
+    <footer>
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Stop by today! We are located at 111 Sussex Drive.</p>
+        <p>Give us a call. 613-555-2626</p>
+      </section>
+      <small>© Coco's Chocolatiers</small>
+    </footer>
 
   </body>
 </html>
