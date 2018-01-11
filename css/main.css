@@ -30,7 +30,7 @@ header {
   padding: .6em;
 }
 
-li {
+nav li {
   display: inline-block;
 }
 
@@ -152,6 +152,21 @@ a:hover {
   display: inline-block;
   margin-left: 0;
   padding: .5em 1em 0;
+}
+
+.reviews-list {
+  padding-left: 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 2em;
+  text-align: center;
+  width: 100%;
 }
 
 @media only screen and (min-width:60em) {
